@@ -3,6 +3,7 @@ A promise wrapper for xml2js.
 
 
 [![NPM](https://nodei.co/npm/node-xml2js-promise.png)](https://nodei.co/npm/node-xml2js-promise/)
+[![CircleCI](https://circleci.com/gh/ix64/node-xml2js-promise.svg?style=svg)](https://circleci.com/gh/ix64/node-xml2js-promise)
 [![Dependency Status](https://img.shields.io/david/ix64/node-xml2js-promise.svg?style=flat-square)](https://david-dm.org/ix64/node-xml2js-promise)
 ### Installation
 
