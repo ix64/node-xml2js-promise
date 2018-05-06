@@ -1,5 +1,5 @@
 {
-  "name": "xml2js-promise",
+  "name": "node-xml2js-promise",
   "version": "1.0.0",
   "description": "A promise wrapper for xml2js.",
   "main": "xml2js-promise.js",
