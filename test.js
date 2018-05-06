@@ -9,8 +9,11 @@ describe("parse xml", () => {
             result.xml.should.equal('is valid');
         });
         it("invalid xml", async () => {
-            let result = await  xml2js_promise(invalid_xml);
-            result.should.Error();
+            try {
+                await  xml2js_promise(invalid_xml);
+            } catch (err) {
+                err.should.Error();
+            }
         });
     }
 );

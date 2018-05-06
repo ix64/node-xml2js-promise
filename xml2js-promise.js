@@ -10,7 +10,7 @@ module.exports = (xmlString, options) => {
             }
         })
     }).catch((err) => {
-        return err;
+        throw err;
     });
 };
 
