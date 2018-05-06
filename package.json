@@ -1,0 +1,31 @@
+{
+  "name": "xml2js-promise",
+  "version": "1.0.0",
+  "description": "A promise wrapper for xml2js.",
+  "main": "xml2js-promise.js",
+  "dependencies": {
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
+    "mocha": "^5.1.1",
+    "should": "^13.2.1"
+  },
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ix64/node-xml2js-promise.git"
+  },
+  "keywords": [
+    "xml2js",
+    "promise",
+    "es6"
+  ],
+  "author": "ix64",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ix64/node-xml2js-promise/issues"
+  },
+  "homepage": "https://github.com/ix64/node-xml2js-promise#readme"
+}
