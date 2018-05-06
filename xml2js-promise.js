@@ -9,8 +9,8 @@ module.exports = (xmlString, options) => {
                 resolve(result);
             }
         })
-    }).catch(() => {
-        return undefined;
+    }).catch((err) => {
+        return err;
     });
 };
 

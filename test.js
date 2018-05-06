@@ -10,7 +10,7 @@ describe("parse xml", () => {
         });
         it("invalid xml", async () => {
             let result = await  xml2js_promise(invalid_xml);
-            should(result).undefined();
+            result.should.Error();
         });
     }
 );
