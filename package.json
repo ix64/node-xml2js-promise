@@ -1,6 +1,6 @@
 {
   "name": "node-xml2js-promise",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A promise wrapper for xml2js.",
   "main": "xml2js-promise.js",
   "dependencies": {
